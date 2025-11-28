@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Spotify Card</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <div class="card" id="flipCard">
+    <div class="card-inner">
+      
+      <!-- FRONT SIDE -->
+      <div class="card-front">
+        <div class="album-container">
+          <img src="meowl.jpg" class="album-cover" id="albumImage" />
+          <div class="disc"></div>
+        </div>
+
+        <h2 class="title">Madizon Mae Dela Vega</h2>
+        <p class="artist">SM-4102</p>
+
+        <div class="progress-container">
+          <div class="progress-bar"></div>
+        </div>
+
+        <div class="buttons">
+          <button class="prev">⏮</button>
+          <button class="play">| |</button>
+          <button class="next">⏭</button>
+        </div>
+      </div>
+
+      <!-- BACK SIDE -->
+      <div class="card-back">
+        <h3>Motivational Quote</h3>
+        <p id="quoteText"></p>
+      </div>
+
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
